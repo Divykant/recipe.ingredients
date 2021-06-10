@@ -1,0 +1,30 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(65, 63, 63);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(255, 238, 238);
+    align-items: center;
+    min-width: 44%;
+    max-width: 44%;
+    min-height: 80vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.imgg{
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 5px;
+    box-shadow: 0 0 5px rgb(153, 153, 153);
+    border-radius: 30px;
+}
+.headtitle{
+    margin-top: 15px;
+}
+.list{
+    max-width: 80%;
+}
+.subhead{
+    font-weight: 600;
+}

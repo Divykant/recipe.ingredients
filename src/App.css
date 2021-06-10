@@ -1,0 +1,40 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.top_heading{
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(219, 219, 219);
+  color: #5e5c5d;
+  text-shadow: 0 0 10px #b12a5b;
+}
+.App{
+  min-height: 150vh;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
+.search-form{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+
+}
+.search-bar{
+  margin-top: 10px;
+  width: 25%;
+  border: none;
+  padding: 10px;
+}
+.search-button{
+  background-color: rgb(71, 43, 230);
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+}
+.recipe_div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
